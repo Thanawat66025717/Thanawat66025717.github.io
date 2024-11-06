@@ -1,45 +1,63 @@
 <!DOCTYPE html>
-<html>
-
-  <head>
-
+<html lang="th">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-
-    <title>A very simple example</title>
-
-    <style>
-
-      .description {
-        padding-top: 40px;
-        font-weight: bold;
-      }
-
-    </style>
-
-    <script>
-
-      function start() {
-        setInterval(function() {
-          const red = Math.floor(Math.random() * 256) + 1;
-          const green = Math.floor(Math.random() * 256) + 1;
-          const blue = Math.floor(Math.random() * 256) + 1;
-          document.getElementById("myHeading").style.color =
-            `#${red.toString(16)}${green.toString(16)}${blue.toString(16)}`;
-        }, 250);
-      }
-
-    </script>
-
-  </head>
-
-  <body onLoad="start();">
-
-    <h1 id="myHeading">My First Web Site&trade;</h1>
-    <h1 id="myHeading">it's ME&trade;</h1>
-    <hr />
-    <div class="description">This is a very simple example that shows HTML, CSS, and JS</div>
-
-  </body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanawat Jaikaew - Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile-section">
+            <img src="path-to-your-image.jpg" alt="Profile Picture" class="profile-pic">
+            <h1>THANAWAT JAIKAEW</h1>
+            <p>ชื่อเล่น: เด่น<br>วันเกิด: 26 มกราคม 2547<br>อายุ: 20 ปี</p>
+            <div class="contact">
+                <p><strong>Contact</strong></p>
+                <p>📞 0931592488</p>
+                <p>📧 thanawatj3@gmail.com</p>
+                <p>🏠 152 หมู่ 2</p>
+            </div>
+        </div>
+        
+        <div class="main-section">
+            <div class="section">
+                <h2>WORK EXPERIENCE</h2>
+                <ul>
+                    <li>กฎหมายกับการยกระดับคุณภาพชีวิต | มหาวิทยาลัยพะเยา | 2567</li>
+                    <li>ตลาดดิจิทัลเบื้องต้น | มหาวิทยาลัยพะเยา | 2567</li>
+                    <li>User Experience Design for Mobile Applications Development | มหาวิทยาลัยเกิล | 2567</li>
+                    <li>Oracle Learningexplorer | Oracle | 2567</li>
+                    <li>โครงงาน mini project | มหาวิทยาลัยพะเยา | 2567</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li>Teamwork abilities</li>
+                    <li>แข่งขันฟุตซอล | มหาลัยพะเยา | 2566</li>
+                    <li>แข่งขันฟุตซอล | มหาลัยพะเยา | 2567</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>SKILLS SUMMARY</h2>
+                <h3>Technical skills</h3>
+                <ul>
+                    <li>มีความรู้พื้นฐานเกี่ยวกับ Microsoft Office (Word, Powerpoint)</li>
+                    <li>มีความรู้พื้นฐานเกี่ยวกับ Python, Java</li>
+                    <li>มีความรู้พื้นฐานเกี่ยวกับ Canva</li>
+                </ul>
+                <h3>Soft skills</h3>
+                <ul>
+                    <li>การทำงานเป็นทีม</li>
+                    <li>การสื่อสาร</li>
+                    <li>การจัดการเวลา</li>
+                    <li>การเรียนรู้สิ่งใหม่</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
 </html>
